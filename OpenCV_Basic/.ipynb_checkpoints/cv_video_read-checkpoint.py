@@ -2,7 +2,6 @@ import cv2
 
 cap = cv2.VideoCapture(1)
 
-
 while True:
     ret,frame = cap.read()
 
@@ -13,7 +12,11 @@ while True:
     key = cv2.waitKey(100)
     if key == ord('q'):
         break
-    
+
+
+
+
+cv2.waitKey(0) 
 cv2.destroyAllWindows()
 cap.release()
 
