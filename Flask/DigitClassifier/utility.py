@@ -1,7 +1,7 @@
 from keras.models import load_model
 import cv2
 
-model = load_model('mnist.h5')
+model = load_model('mnist.keras')
 
 def predictDigit(path):
     img = cv2.imread(path)

@@ -1,0 +1,16 @@
+langchain
+python_dotenv
+langchain_community
+pypdf
+bs4
+arxiv
+pymupdf
+wikipedia 
+langchain_huggingface
+sentence-transformers
+faiss-cpu
+langchain_chroma
+langchain_ollama
+streamlit
+langchain_groq
+langchain_core

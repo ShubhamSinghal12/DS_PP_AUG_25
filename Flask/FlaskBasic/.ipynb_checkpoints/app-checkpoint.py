@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/start')
 def start():
     print('Hello World')
-    # return "Hi Welcome to CB"
+    # return "Hello World"
     # return '''<html>
     # <head>
     # <title> Home Page </title>
@@ -18,7 +18,7 @@ def start():
     # </body>
     # </htlm>'''
     
-    # print(render_template('start.html'))
+    print(render_template('start.html'))
     return render_template('start.html')
 
     
@@ -28,7 +28,7 @@ def home():
     name = request.args.get('fname')
     if name == None:
         name = 'Guest'
-    return render_template('home.html',name = name,r = 10,arr  = [10,33,21,44,52])
+    return render_template('home.html',name = name,r = 10,arr=[11,22,33,44,55,66])
     # return "Hello Welcome to Home"
 
 
